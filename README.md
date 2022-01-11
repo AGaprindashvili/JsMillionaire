@@ -1,6 +1,6 @@
 **Project: Who Wants to Be a Millionaire?**
 
-Simple JavaScript Game - Who Wants to Be a Millionaire?
+JsMillionaire, Simple JavaScript Game
 
 ==========
 
@@ -14,4 +14,4 @@ Doctor of Informatics, Programmer
 
 JavaScript/jQuery sample game for students
 
-![Alt text](https://github.com/AGaprindashvili/JsMillionaire/Screen.png)
+![JsMillionaire](https://github.com/AGaprindashvili/JsMillionaire/blob/main/Screen.png)
