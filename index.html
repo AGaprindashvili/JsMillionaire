@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/jquery.js"></script>
+    <title>Who Wants to Be a Millionaire?</title>
+</head>
+<body>
+    <div class="welcome">
+    </div>
+    <div id="game">
+        <div class="container">
+            <div class="name">
+                <h1>Who Wants to Be a Millionaire?</h1>
+            </div>
+            <div class="main">
+                <div class="que-ans" id="game-panel">
+                    <div class="display">
+                        <p class="question"></p>
+                    </div>
+                    <div class="options"></div>
+                </div>
+                <div class="aside">
+                    <div class="life-line">
+                        <img class="fifty" src="images/fifty.png">
+                        <img class="call" src="images/call.png">
+                        <img class="aud" src="images/aud.png">
+                    </div>
+                    <div class="score">
+                        <span class="score">0 $</span>
+                    </div>
+                    <div class="stages">
+                        <button>1000000 $</button>
+                        <button>500000 $</button>
+                        <button>100000 $</button>
+                        <button>80000 $</button>
+                        <button>40000 $</button>
+                        <button>20000 $</button>
+                        <button>10000 $</button>
+                        <button>8000 $</button>
+                        <button>4000 $</button>
+                        <button>2000 $</button>
+                        <button>1000 $</button>
+                        <button>800 $</button>
+                        <button>400 $</button>
+                        <button>200 $</button>
+                        <button class="current">100 $</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal">
+        <div class="warning">
+            <p>Is this the final answer?</p>
+            <button class="yes">Yes</button>
+            <button class="no">No</button>
+        </div>
+        <div class="right-wrapper">
+            <p id="right"></p>
+        </div>
+        <div class="wrong-wrapper">
+            <p id="wrong"></p>
+        </div>
+        <div class="chat-wrapper">
+            <p id="chat"></p>
+        </div>
+        <div class="audience-wrapper">
+            <div class="bar">
+                <div class="bar-item-container">
+                    <div class="bar-A">A</div>
+                </div>
+                <div class="bar-item-container">
+                    <div class="bar-B">B</div>
+                </div>
+                <div class="bar-item-container">
+                    <div class="bar-C">C</div>
+                </div>
+                <div class="bar-item-container">
+                    <div class="bar-D">D</div>
+                </div>
+            </div>
+            <div class="close">
+                <button class="closeBtn">Close</button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
